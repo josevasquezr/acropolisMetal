@@ -11,3 +11,7 @@
 footer{
 	clear: both;
 }
+
+footer ul{
+	float: left;
+}
