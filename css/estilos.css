@@ -1,15 +1,39 @@
-#info{
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #710000;
+}
+
+article{
+	width: 90%;
+	max-width: 1500px;
+	padding: 10px;
+	margin: 60px auto;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#info, #formRegistro{
 	width: 50%;
 	float: left;
 }
 
-#formRegistro{
-	width: 50%;
-	float: left;
+h3{
+	text-align: center;
+	font-family: Verdana;
 }
 
 footer{
 	clear: both;
+	width: 90%;
+	max-width: 1500px;
+	padding: 10px;
+	margin: auto;
 }
 
 footer ul{
