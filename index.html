@@ -31,23 +31,35 @@
 			</section>
 
 			<section id="formRegistro">
-				<form action="" method="">
+				<div class="contenedorForm">
 					<h3>Regístrate</h3>
-					<div class="labels">
-						<label>Usuario: </label>
-						<label>Nombres: </label>
-						<label>Apellidos: </label>
-						<label>Contraseña: </label>
-					</div>
-					
-					<div class="textbox">
-						<input type="text" maxlength="10" required="required" name="txtUsuario" />
-						<input type="text" maxlength="30" required="required" name="txtNombres" />
-						<input type="text" maxlength="30" required="required" name="txtApellidos" />
-						<input type="password" maxlength="10" required="required" name="txtContrasenia" />
-					</div>
-					<input type="submit" value="Registrarme" >
-				</form>
+					<form action="" method="post">
+						<div class="inputGroup">
+							<input type="text" maxlength="10" required="required" name="txtUsuario" id="txtUsuario" class="textbox" />
+							<label for="txtUsuario" class="label">Usuario: </label>
+						</div>
+
+						<div class="inputGroup">
+							<input type="text" maxlength="30" required="required" name="txtNombres" id="txtNombres" class="textbox"/>
+							<label for="txtNombres" class="label">Nombres: </label>
+						</div>
+
+						<div class="inputGroup">
+							<input type="text" maxlength="30" required="required" name="txtApellidos" id="txtApellidos" class="textbox"/>
+							<label for="txtApellidos" class="label">Apellidos: </label>
+						</div>
+
+						<div class="inputGroup">
+							<input type="password" maxlength="10" required="required" name="txtContrasenia" id="txtContrasenia" class="textbox" />
+							<label for="txtContrasenia" class="label">Contraseña: </label>
+						</div>
+							
+						<div class="inputGroup">	
+							<input type="submit" value="Registrarme" class="submit" id="submit">
+						</div>	
+							
+					</form>
+				</div>
 			</section>
 		</article>
 

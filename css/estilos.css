@@ -100,13 +100,55 @@ article{
 	box-sizing: border-box;
 }
 
-#formRegistro label, input{
-	display: block;
+.contenedorForm{
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+	border-radius: 5px;
+	background-color: rgba(230, 230, 230, 0.1);
 }
 
-#formRegistro div{
-	float: left;
-	width: 50%;
+.inputGroup{
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.textbox{
+	display: block;
+	width: 100%;
+	max-width: 450px;
+	background: none;
+	color: white;
+	outline: none;
+	padding: 7px;
+	margin: auto;
+	border: none;
+	border-bottom: 2px solid #8D0800;
+	font-size: 16px;
+	font-family: "Copperplate Gothic";
+}
+
+.label{
+	display: block;
+	width: 100%;
+	max-width: 450px;
+	margin: auto;
+	position: absolute;
+	top: 3px;
+	left: 16px;
+	font-size: 16px;
+	font-family: "Copperplate Gothic";
+}
+
+.textbox:focus{
+	border-bottom: 2px solid #B9B6B6;
+}
+
+.label:hover{
+	top: top: -12px;
+	font-size: 10px;
+	color: white;
+	transition: all .3s ease;
 }
 
 footer{
@@ -144,6 +186,7 @@ h3{
 	font-size: 20px;
 	padding: 10px;
 	margin: auto;
+	margin-bottom: 17px;
 	font-weight: bold;
 }
 
