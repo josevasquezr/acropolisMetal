@@ -147,6 +147,15 @@ h3{
 	font-weight: bold;
 }
 
+@media screen and (max-width: 800px) {
+	#bienvenida{
+		width: 100%
+	}
+
+	#formRegistro{
+		width: 100%;
+	}
+}
 
 
 
