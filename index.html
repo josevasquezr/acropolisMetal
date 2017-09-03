@@ -4,58 +4,81 @@
 	<title>Acrópolis Metal - Registro</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/estilos.css" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
-	<article>
-		<section id="info">
-			<div id="img">
+
+	<div id="contenedor">
+		<header>
+			<div id="logoNav">
 				<img src="media/imgs/logo.jpg" alt="Logo Acrópolis Metal" />
+				<p>Acrópolis Metal</p>
 			</div>
-			<div id="bienvenida">
+			<nav>
+				<ul>
+					<li><a href="#">¿Quienes Somos?</a></li>
+					<li><a href="#">Nuestro Contenido</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<article>
+			<section id="bienvenida">
+				<img src="media/imgs/logo.jpg" alt="Logo Acrópolis Metal" />
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus cumque libero provident et illo ut, sed repellat assumenda sapiente obcaecati sint dolor, maxime explicabo expedita id repudiandae asperiores quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nesciunt, vero voluptate ducimus suscipit atque impedit odit eligendi perferendis minima eaque veritatis. Alias sapiente est recusandae, earum tempora repudiandae repellendus.
 				</p>
-			</div>
-		</section>
-		<section id="formRegistro">
-			<form action="" method="">
-				<h3>Regístrate</h3>
-				<label>Usuario: </label> <input type="text" maxlength="10" required="required" />
-				<label>Primer Nombre: </label> <input type="text" maxlength="30" required="required" />
-				<label>Segundo Nombre: </label> <input type="text" maxlength="30" />
-				<label>Primer Apellido: </label> <input type="text" maxlength="10" required="required" />
-				<label>Segundo Apellido: </label> <input type="text" maxlength="10"/>
-				<label>Edad: </label> <input type="number" min="10" max="100" value="" required="required" />
-				<label>Nacionalidad: </label> <select name="" id=""> <option value="HONDURAS">HONDURAS</option> </select>
-			</form>
-		</section>
-	</article>
+			</section>
 
-	<footer>
-		<ul>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-		</ul>
-		<ul>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-		</ul>
-		<ul>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-		</ul>
-		<ul>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-			<li><a href="">Items</a></li>
-		</ul>
-	</footer>
+			<section id="formRegistro">
+				<form action="" method="">
+					<h3>Regístrate</h3>
+					<div class="labels">
+						<label>Usuario: </label>
+						<label>Nombres: </label>
+						<label>Apellidos: </label>
+						<label>Contraseña: </label>
+					</div>
+					
+					<div class="textbox">
+						<input type="text" maxlength="10" required="required" name="txtUsuario" />
+						<input type="text" maxlength="30" required="required" name="txtNombres" />
+						<input type="text" maxlength="30" required="required" name="txtApellidos" />
+						<input type="password" maxlength="10" required="required" name="txtContrasenia" />
+					</div>
+					<input type="submit" value="Registrarme" >
+				</form>
+			</section>
+		</article>
+
+		<footer>
+			<ul>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+			</ul>
+			<ul>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+			</ul>
+			<ul>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+			</ul>
+			<ul>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+				<li><a href="">Items</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
 </body>
 </html>
