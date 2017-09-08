@@ -106,6 +106,8 @@ article{
 	margin: auto;
 	border-radius: 5px;
 	background-color: rgba(230, 230, 230, 0.1);
+	padding: 7px;
+	box-sizing: border-box;
 }
 
 .inputGroup{
@@ -120,7 +122,7 @@ article{
 	background: none;
 	color: white;
 	outline: none;
-	padding: 7px;
+	padding: 7px 0px;
 	margin: auto;
 	border: none;
 	border-bottom: 2px solid #8D0800;
@@ -202,6 +204,13 @@ h3{
 	margin: auto;
 	margin-bottom: 17px;
 	font-weight: bold;
+}
+
+.labelActive{
+	top: -8px; 
+	font-size: 10px; 
+	color: white; 
+	transition: all .3s ease;
 }
 
 @media screen and (max-width: 800px) {
