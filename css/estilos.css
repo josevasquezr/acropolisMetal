@@ -145,13 +145,6 @@ article{
 	border-bottom: 2px solid #B9B6B6;
 }
 
-.label:hover{
-	top: -8px;
-	font-size: 10px;
-	color: white;
-	transition: all .3s ease;
-}
-
 .submit{
 	display: block;
 	width: 100%;
