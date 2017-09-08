@@ -138,6 +138,7 @@ article{
 	left: 16px;
 	font-size: 16px;
 	font-family: "Copperplate Gothic";
+	font-weight: bold;
 }
 
 .textbox:focus{
@@ -145,10 +146,30 @@ article{
 }
 
 .label:hover{
-	top: top: -12px;
+	top: -8px;
 	font-size: 10px;
 	color: white;
 	transition: all .3s ease;
+}
+
+.submit{
+	display: block;
+	width: 100%;
+	max-width: 450px;
+	padding: 10px;
+	margin: auto;
+	border-radius: 5px;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	background-color: #8D0800;
+	box-shadow: 0px 0px 5px black;
+	border: none;
+}
+
+.contenedorSubmit{
+	padding: 10px;
+	margin: auto;
 }
 
 footer{
@@ -198,8 +219,11 @@ h3{
 	#formRegistro{
 		width: 100%;
 	}
-}
 
+	.logoNavImg{
+		display: none;
+	}
+}
 
 
 
