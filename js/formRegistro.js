@@ -1,12 +1,18 @@
 $(function(){
 	$(".textbox").focus(function(){
 		var label = $(this).siblings().eq(0);
-		label.addClass("labelActive");
+		if ($(this).val() == "") {
+			label.toggleClass("labelActive");
+		}
 	});
 
 	$(".textbox").blur(function(){
 		var label = $(this).siblings().eq(0);
-		label.removeClass("labelActive");
+		if ($(this).val() == "") {
+			label.toggleClass("labelActive");
+		}
 	});
+
+	
 
 });
