@@ -3,7 +3,18 @@
 <head>
 	<title>Acrópolis Metal - Registro</title>
 	<meta charset="utf-8">
+	
+	<!--Fuentes-->
 	<link rel="stylesheet" href="css/estilos.css" />
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet"> <!--Titulos-->
+	<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet"> <!--Subtitulos-->
+	<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet"> <!--Parrafos-->
+	<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet"> <!--2da fuente-->
+	<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet"> <!--Fuente en carta-->
+	<!---->
+	
+	<link rel="stylesheet" href="media/webFonts/style.css"> <!--Icon Fonts-->
+
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
@@ -13,10 +24,10 @@
 		<header>
 			<div id="logoNav">
 				<img src="media/imgs/logo.jpg" alt="Logo Acrópolis Metal" class="logoNavImg" />
-				<p>Acrópolis Metal</p>
+				<p class="fontTitle">Acrópolis Metal</p>
 			</div>
 			<nav>
-				<ul>
+				<ul class="fontParagraph">
 					<li><a href="#">¿Quienes Somos?</a></li>
 					<li><a href="#">Nuestro Contenido</a></li>
 				</ul>
@@ -26,43 +37,43 @@
 		<article>
 			<section id="bienvenida">
 				<img src="media/imgs/logo.jpg" alt="Logo Acrópolis Metal" />
-				<p>
+				<p class="fontParagraph">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus cumque libero provident et illo ut, sed repellat assumenda sapiente obcaecati sint dolor, maxime explicabo expedita id repudiandae asperiores quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nesciunt, vero voluptate ducimus suscipit atque impedit odit eligendi perferendis minima eaque veritatis. Alias sapiente est recusandae, earum tempora repudiandae repellendus.
 				</p>
 			</section>
 
 			<section id="formRegistro">
 				<div class="contenedorForm">
-					<h3>Regístrate</h3>
-					<form action="" method="post">
+					<h3 class="fontSubtitle"> <span class="icon icon-pencil"></span> Regístrate</h3>
+					<form action="" method="post" class="fontParagraph">
 						<div class="inputGroup">
-							<input type="text" maxlength="10" required="required" name="txtUsuario" id="txtUsuario" class="textbox" />
-							<label for="txtUsuario" class="label">Usuario: </label>
+							<input type="text" maxlength="10" required="required" name="txtUsuario" id="txtUsuario" class="textbox fontParagraph" />
+							<label for="txtUsuario" class="label"><span class="icon icon-user"></span>Usuario: </label>
 						</div>
 
 						<div class="inputGroup">
-							<input type="text" maxlength="30" required="required" name="txtNombres" id="txtNombres" class="textbox"/>
-							<label for="txtNombres" class="label">Nombres: </label>
+							<input type="text" maxlength="30" required="required" name="txtNombres" id="txtNombres" class="textbox fontParagraph"/>
+							<label for="txtNombres" class="label"><span class="icon icon-keyboard"></span>Nombres: </label>
 						</div>
 
 						<div class="inputGroup">
-							<input type="text" maxlength="30" required="required" name="txtApellidos" id="txtApellidos" class="textbox"/>
-							<label for="txtApellidos" class="label">Apellidos: </label>
+							<input type="text" maxlength="30" required="required" name="txtApellidos" id="txtApellidos" class="textbox fontParagraph"/>
+							<label for="txtApellidos" class="label"><span class="icon icon-keyboard"></span>Apellidos: </label>
 						</div>
 
 						<div class="inputGroup">
-							<input type="email" maxlength="80" required="required" name="txtCorreo" id="txtCorreo" class="textbox"/>
-							<label for="txtCorreo" class="label">Correo: </label>
+							<input type="email" maxlength="80" required="required" name="txtCorreo" id="txtCorreo" class="textbox fontParagraph"/>
+							<label for="txtCorreo" class="label"><span class="icon icon-mail2"></span>Correo: </label>
 						</div>
 
 						<div class="inputGroup">
-							<input type="password" maxlength="10" required="required" name="txtContrasenia" id="txtContrasenia" class="textbox" />
-							<label for="txtContrasenia" class="label">Contraseña: </label>
+							<input type="password" maxlength="10" required="required" name="txtContrasenia" id="txtContrasenia" class="textbox fontParagraph" />
+							<label for="txtContrasenia" class="label"><span class="icon icon-key"></span>Contraseña: </label>
 						</div>
 							
 						<div class="inputGroup">
-							<div class="contenedorSubmit">	
-								<input type="submit" value="Registrarme" class="submit" id="submit">
+							<div class="contenedorSubmit">
+								<input type="submit" value="Registrarme" class="submit fontParagraph" id="submit">
 							</div>
 						</div>	
 							
@@ -72,30 +83,37 @@
 		</article>
 
 		<footer>
-			<ul>
+			<ul class="fontParagraph">
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 			</ul>
-			<ul>
+			<ul class="fontParagraph">
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 			</ul>
-			<ul>
+			<ul class="fontParagraph">
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 			</ul>
-			<ul>
+			<ul class="fontParagraph">
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 				<li><a href="">Items</a></li>
 			</ul>
+
+			<div class="redesSociales">
+				<div><span class="icon-facebook2 iconAnimation"></span></div>
+				<div><span class="icon-instagram iconAnimation"></span></div>
+				<div><span class="icon-twitter iconAnimation"></span></div>
+				<div><span class="icon-youtube iconAnimation"></span></div>
+			</div>
 		</footer>
 
 	</div>

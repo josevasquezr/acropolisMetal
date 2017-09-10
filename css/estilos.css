@@ -7,6 +7,31 @@ body{
 	background-color: #4D0400;
 }
 
+.fontTitle{
+	font-family: "Berkshire Swash";
+	font-size: 45px;
+}
+
+.fontSubtitle{
+	font-family: "Rancho";
+	font-size: 30px;
+}
+
+.fontParagraph{
+	font-family: "Sorts Mill Goudy";
+	font-size: 16px;
+}
+
+.fontAlter{
+	font-family: "Neucha";
+	font-size: 16px;
+}
+
+.fontCart{
+	font-family: "Niconne";
+	font-size: 16px;
+}
+
 #contenedor{
 	width: 85%;
 	max-width: 1500px;
@@ -22,8 +47,6 @@ body{
 
 #logoNav p{
 	text-align: center;
-	font-family: "Copperplate Gothic";
-	font-size: 45px;
 	padding: 10px;
 	margin: auto;
 	font-weight: bold;
@@ -126,8 +149,6 @@ article{
 	margin: auto;
 	border: none;
 	border-bottom: 2px solid #8D0800;
-	font-size: 16px;
-	font-family: "Copperplate Gothic";
 }
 
 .label{
@@ -138,8 +159,6 @@ article{
 	position: absolute;
 	top: 3px;
 	left: 16px;
-	font-size: 16px;
-	font-family: "Copperplate Gothic";
 	font-weight: bold;
 }
 
@@ -154,7 +173,6 @@ article{
 	padding: 10px;
 	margin: auto;
 	border-radius: 5px;
-	font-size: 16px;
 	color: black;
 	font-weight: bold;
 	background-color: #8D0800;
@@ -169,7 +187,6 @@ article{
 
 footer{
 	clear: both;
-	background-color: #000000;
 	overflow: hidden;
 }
 
@@ -180,6 +197,7 @@ footer ul{
 	margin: auto;
 	float: left;
 	box-sizing: border-box;
+	background-color: #000000;
 }
 
 footer ul li a{
@@ -198,8 +216,6 @@ footer ul li a:hover{
 
 h3{
 	text-align: center;
-	font-family: "Copperplate Gothic";
-	font-size: 20px;
 	padding: 10px;
 	margin: auto;
 	margin-bottom: 17px;
@@ -211,6 +227,40 @@ h3{
 	font-size: 10px; 
 	color: white; 
 	transition: all .3s ease;
+}
+
+.icon{
+	margin-right: 10px;
+}
+
+.redesSociales{
+	clear: both;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin: 10px;
+	color: black;
+	box-sizing: border-box;
+}
+
+.redesSociales div{
+	display: block;
+	width: 25%;
+	float: left;
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 35px;
+}
+
+.redesSociales div span{
+}
+
+.iconAnimation:hover{
+	color: white;
+	font-size: 45px;
 }
 
 @media screen and (max-width: 800px) {
