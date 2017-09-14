@@ -1,6 +1,7 @@
 *{
 	padding: 0px;
 	margin: 0px;
+	box-sizing: border-box;
 }
 
 body{
@@ -54,36 +55,75 @@ body{
 }
 
 nav{
-	margin-top: 5px;
 	background-color: #000000;
 	clear: both;
 	overflow: hidden;
+	
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
 }
 
-nav ul{
-	list-style: none;
+.contenedorNav{
+	width: 60%;
+
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
 }
 
-nav ul li{
-	float: left;
+.contenedorLogin{
+	width: 40%;
+
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
 }
 
-nav ul li a{
-	display: block;
+.linkNav{
 	padding: 10px;
-	margin: auto;
 	text-decoration: none;
 	color: #8D0800;
 	font-weight: bolder;
+	text-align: center;
+	width: 160px;
 }
 
-nav ul li a:hover{
+.linkNav:hover{
 	background-color: #490400;
 	color: white;
 }
 
 article{
-	clear: both;
+	width: 100%;
+	margin: 5px auto;
+
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+}
+
+#bienvenida{
+	width: 50%;
+	padding: 10px;
+	background-color: #000000;
 }
 
 #bienvenida img{
@@ -100,27 +140,11 @@ article{
 	font-weight: bolder;
 }
 
-#bienvenida{
-	width: 39.5%;
-	float: left;
-	padding: 10px;
-	background-color: #000000;
-	margin: auto;
-	margin-right: 0.5%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	box-sizing: border-box;
-}
-
-
 #formRegistro{
-	width: 60%;
-	float: left;
+	width: 50%;
 	padding: 10px;
 	background-color: #000000;
-	margin: 5px 0px 5px 0px;
 	color: #8D0800;
-	box-sizing: border-box;
 }
 
 .contenedorForm{
@@ -130,7 +154,14 @@ article{
 	border-radius: 5px;
 	background-color: rgba(230, 230, 230, 0.1);
 	padding: 7px;
-	box-sizing: border-box;
+}
+
+h3{
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 17px;
+	font-weight: bold;
 }
 
 .inputGroup{
@@ -186,40 +217,71 @@ article{
 }
 
 footer{
-	clear: both;
-	overflow: hidden;
+	width: 100%;
+
+	/*flex*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
 }
 
-footer ul{
-	list-style: none;
-	width: 25%;
-	display: block;
-	margin: auto;
-	float: left;
-	box-sizing: border-box;
+.navFooter{
+	width: 100%;
 	background-color: #000000;
+
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
 }
 
-footer ul li a{
-	display: block;
+.navFooter div{
+	flex:1 1;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.navFooter div a{
+	width: 100%;
+}
+
+.redesSociales{
+	width: 100%;
+	color: black;
+	height: 90px;
+
+	/*flex*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+}
+
+.redesSociales div{
 	padding: 10px;
-	margin: auto;
-	text-decoration: none;
-	color: #8D0800;
-	font-weight: bolder; 
-}
-
-footer ul li a:hover{
-	background-color: #490400;
-	color: white;
-}
-
-h3{
 	text-align: center;
-	padding: 10px;
-	margin: auto;
-	margin-bottom: 17px;
-	font-weight: bold;
+	font-size: 50px;
+
+	flex: 1 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconAnimation:hover{
+	color: white;
+	font-size: 55px;
 }
 
 .labelActive{
@@ -231,36 +293,6 @@ h3{
 
 .icon{
 	margin-right: 10px;
-}
-
-.redesSociales{
-	clear: both;
-	display: block;
-	width: 100%;
-	padding: 5px;
-	margin: 10px;
-	color: black;
-	box-sizing: border-box;
-}
-
-.redesSociales div{
-	display: block;
-	width: 25%;
-	float: left;
-	margin: auto;
-	padding: 10px;
-	box-sizing: border-box;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 35px;
-}
-
-.redesSociales div span{
-}
-
-.iconAnimation:hover{
-	color: white;
-	font-size: 45px;
 }
 
 @media screen and (max-width: 800px) {
