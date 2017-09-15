@@ -296,9 +296,31 @@ footer{
 	margin-right: 10px;
 }
 
+.menu{
+	display: none;
+}
+
+.despliegueMenu{
+	/*width: 80%;*/
+	z-index: 1;
+
+	/*flex*/
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
 @media screen and (max-width: 800px) {
+	article{
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
 	#bienvenida{
-		width: 100%
+		width: 100%;
 	}
 
 	#formRegistro{
@@ -310,5 +332,37 @@ footer{
 	}
 }
 
+@media screen and (max-width: 630px) {
+	.contenedorNav{
+		display: none;
+	}
 
+	.contenedorLogin{
+		display: none;
+	}
+	
+	nav{
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.menu{
+		/*flex*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		align-content: center;
+	}
+
+	/*.contenedorMenu{
+		display: none;
+	}*/
+
+	.menu span{
+		font-size: 32px;
+		color: #8D0800;
+	}
+}
 

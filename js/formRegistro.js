@@ -13,6 +13,9 @@ $(function(){
 		}
 	});
 
-	
+	$(".menu span").click(function(){
+		$(".contenedorMenu").toggleClass("despliegueMenu");
+		$(".contenedorMenu").animate({"width":"80%"}, 2000);
+	});
 
 });
