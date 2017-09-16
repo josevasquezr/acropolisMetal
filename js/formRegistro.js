@@ -13,9 +13,17 @@ $(function(){
 		}
 	});
 
-	$(".menu span").click(function(){
-		$(".contenedorMenu").toggleClass("despliegueMenu");
-		$(".contenedorMenu").animate({"width":"80%"}, 2000);
+	var abierto = 0;
+	$(".menu").click(function(){
+		if (abierto == 0) {
+			$("nav").addClass("abrir");
+			$("nav").removeClass("cerrar");
+			abierto = 1;
+		}else{
+			$("nav").removeClass("abrir");
+			$("nav").addClass("cerrar");
+			abierto = 0;
+		}
 	});
 
 });

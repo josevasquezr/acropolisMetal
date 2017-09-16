@@ -300,6 +300,16 @@ footer{
 	display: none;
 }
 
+.abrir{
+	left: 0px;
+	transition: all 1s ease;
+}
+
+.cerrar{
+	left: -100%;
+	transition: all 1s ease;
+}
+
 @media screen and (max-width: 800px) {
 	article{
 		flex-direction: column;
@@ -352,6 +362,7 @@ footer{
 		height: 100%;
 		position: fixed;
 		z-index: 3000;
+		left: -100%;
 	}
 
 	.contenedorNav{
