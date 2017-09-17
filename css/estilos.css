@@ -54,6 +54,10 @@ body{
 	text-shadow: 3px 3px 2px #8D0800;
 }
 
+header{
+	background-color: #8D0800;
+}
+
 nav{
 	background-color: #000000;
 	clear: both;
@@ -339,18 +343,21 @@ footer{
 	}
 
 	#logoNav{
-		background-color: #4D0400;
+		background-color: #8D0800;
 	}
 
 	header{
 		display: block;
 		position: fixed;
+		background-color: rgba(141, 8, 0, 0.3);
 		width: 100%;
 		top: 0px;
+		z-index: 2000;
 	}
 
 	#logoNav p{
 		font-size: 32px;
+		background-color: rgba(141, 8, 0, 0.3);
 	}
 
 	nav{
@@ -361,7 +368,6 @@ footer{
 		width: 80%;
 		height: 100%;
 		position: fixed;
-		z-index: 3000;
 		left: -100%;
 	}
 
