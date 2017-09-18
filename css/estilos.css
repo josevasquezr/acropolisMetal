@@ -4,22 +4,27 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Fell Great';
+    src: url('/media/fonts/IMFeGPit28P.ttf') format('truetype');
+}
+
 body{
 	background-color: #4D0400;
 }
 
 .fontTitle{
-	font-family: "Berkshire Swash";
+	font-family: "Fell Great";
 	font-size: 45px;
 }
 
 .fontSubtitle{
-	font-family: "Rancho";
+	font-family: "New Rocker";
 	font-size: 30px;
 }
 
 .fontParagraph{
-	font-family: "Sorts Mill Goudy";
+	font-family: "Kingthings";
 	font-size: 16px;
 }
 
