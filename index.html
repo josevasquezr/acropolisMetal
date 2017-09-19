@@ -8,8 +8,7 @@
 	<link rel="stylesheet" href="css/estilos.css" />
 	<link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet"> <!--Titulos-->
 	<link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet"> <!--Subtitulos-->
-	<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet"> <!--Parrafos-->
-	<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet"> <!--2da fuente-->
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> <!--2da fuente-->
 	<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet"> <!--Fuente en carta-->
 	<!---->
 	
@@ -20,84 +19,94 @@
 </head>
 <body>
 
-	<div id="contenedor">
-		<header>
-			<div id="logoNav">
-				<img src="media/imgs/logo.jpg" alt="Logo Acrópolis Metal" class="logoNavImg" />
-				<p class="fontTitle">Acrópolis Metal</p>
-			</div>
-			<div class="menu fontSubtitle">
-				<span>Menú</span>
-				<span class="icon icon-menu"></span>
-			</div>
-			<nav class="fontParagraph">
-				<div class="contenedorNav">
-					<a href="#" class="linkNav">¿Quienes Somos?</a>
-					<a href="#" class="linkNav">Nuestro Contenido</a>
-				</div>
-				<div class="contenedorLogin">
-					<a href="#" class="linkNav">Inicio de Sesión</a>
-				</div>
-			</nav>
-		</header>
+	<div class="contenedor">
 		
+		<div class="portada">
+			<header>
+				<nav>
+					<div>
+						<a href="#" class="linkNav fontParagraph">Items</a>
+						<a href="#" class="linkNav fontParagraph">Items</a>
+						<a href="#" class="linkNav fontParagraph">Items</a>
+						<a href="#" class="linkNav fontParagraph">Items</a>
+						<a href="#" class="linkNav fontParagraph">Items</a>
+					</div>
+					<div>
+						<a href="#" class="linkNav fontParagraph">Items</a>
+					</div>
+				</nav>
+			</header>
+
+			<div>
+				<h1 class="fontTitle">Acrópolis Metal</h1>
+			</div>
+			
+			<div class="registrate">
+				<a href="#" class="linkBtn fontParagraph">Regístrate</a>
+			</div>
+		</div>		
+
 		<article>
-			<section id="bienvenida">
-				<img src="media/imgs/logo.jpg" alt="Logo Acrópolis Metal" />
-				<p class="fontParagraph">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus cumque libero provident et illo ut, sed repellat assumenda sapiente obcaecati sint dolor, maxime explicabo expedita id repudiandae asperiores quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nesciunt, vero voluptate ducimus suscipit atque impedit odit eligendi perferendis minima eaque veritatis. Alias sapiente est recusandae, earum tempora repudiandae repellendus.
-				</p>
+			<section class="contenedorNoticias">
+				<div class="subtitulo">
+					<h2 class="fontSubtitle">Noticias</h2>
+				</div>
+				<div class="noticias">
+					<div class="columnNoticias">
+						<div class="itemNoticia">
+							<p class="fontParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa accusantium, voluptate quidem enim culpa? Officia ad nam maxime hic, consequuntur porro at explicabo iste, voluptatem odio, accusantium amet minus pariatur!</p>
+						</div>
+						<div class="itemNoticia">
+							<p class="fontParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, nam? Soluta ut dolore earum distinctio id rerum voluptatem quam aut, voluptates excepturi quia reprehenderit illum, nostrum commodi nam inventore repudiandae.</p>
+						</div>
+						<div class="itemNoticia">
+							<p class="fontParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum magnam repellat similique odio soluta non expedita. Deserunt architecto natus sit optio voluptas ex suscipit, nam quidem. Quia ea, nemo quis.</p>
+						</div>
+					</div>
+					<div class="columnNoticias">
+						<div class="itemNoticia">
+							<p class="fontParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus vero deserunt nulla quam dolores autem tenetur voluptates, fugiat voluptate labore doloremque! Et, rerum, nemo dolores incidunt porro assumenda eveniet.</p>
+						</div>
+						<div class="itemNoticia">
+							<p class="fontParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quos ex quis debitis, aliquam veritatis? Aliquid deleniti cum, tempora expedita delectus sequi? Ab quidem dignissimos neque iusto totam, similique numquam.</p>
+						</div>
+						<div class="itemNoticia">
+							<p class="fontParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsa tempore, illo eos cupiditate voluptates quisquam ex accusamus doloribus recusandae impedit debitis illum mollitia dolore voluptatem, vero in corporis. Dolor.</p>
+						</div>
+					</div>
+				</div>
 			</section>
+			
+			<section class="contenedorEventos">
+				<div class="columnEvento">
+					<div class="imgEvento">
+						<img src="" alt="Imagen del Evento">
+					</div>
+					<div class="infoEvento">
+						<span class="diaEvento">Dia</span>
+						<span class="fechaEvento">Fecha</span>
+						<span class="lugarEvento">Lugar</span>
+						<span class="bandaLiderEvento">Banda</span>
+					</div>
+				</div>
 
-			<section id="formRegistro">
-				<div class="contenedorForm">
-					<h3 class="fontSubtitle"> <span class="icon icon-pencil"></span> Regístrate</h3>
-					<form action="" method="post" class="fontParagraph">
-						<div class="inputGroup">
-							<input type="text" maxlength="10" required="required" name="txtUsuario" id="txtUsuario" class="textbox fontParagraph" />
-							<label for="txtUsuario" class="label"><span class="icon icon-user"></span>Usuario: </label>
-						</div>
-
-						<div class="inputGroup">
-							<input type="text" maxlength="30" required="required" name="txtNombres" id="txtNombres" class="textbox fontParagraph"/>
-							<label for="txtNombres" class="label"><span class="icon icon-keyboard"></span>Nombres: </label>
-						</div>
-
-						<div class="inputGroup">
-							<input type="text" maxlength="30" required="required" name="txtApellidos" id="txtApellidos" class="textbox fontParagraph"/>
-							<label for="txtApellidos" class="label"><span class="icon icon-keyboard"></span>Apellidos: </label>
-						</div>
-
-						<div class="inputGroup">
-							<input type="email" maxlength="80" required="required" name="txtCorreo" id="txtCorreo" class="textbox fontParagraph"/>
-							<label for="txtCorreo" class="label"><span class="icon icon-mail2"></span>Correo: </label>
-						</div>
-
-						<div class="inputGroup">
-							<input type="password" maxlength="10" required="required" name="txtContrasenia" id="txtContrasenia" class="textbox fontParagraph" />
-							<label for="txtContrasenia" class="label"><span class="icon icon-key"></span>Contraseña: </label>
-						</div>
-							
-						<div class="inputGroup">
-							<div class="contenedorSubmit">
-								<input type="submit" value="Registrarme" class="submit fontParagraph" id="submit">
-							</div>
-						</div>	
-							
-					</form>
+				<div class="columnEvento">
+					<div class="imgEvento">
+						<img src="" alt="Imagen del Evento">
+					</div>
+					<div class="infoEvento">
+						<span class="diaEvento">Dia</span>
+						<span class="fechaEvento">Fecha</span>
+						<span class="lugarEvento">Lugar</span>
+						<span class="bandaLiderEvento">Banda</span>
+					</div>
 				</div>
 			</section>
 		</article>
+		
 
 		<footer class="fontParagraph">
 			<div class="navFooter">
-				<div>
-					<a href="#" class="linkNav">Items</a>
-					<a href="#" class="linkNav">Items</a>
-					<a href="#" class="linkNav">Items</a>
-					<a href="#" class="linkNav">Items</a>
-				</div>
-
 				<div>
 					<a href="#" class="linkNav">Items</a>
 					<a href="#" class="linkNav">Items</a>
