@@ -4,34 +4,60 @@
 	box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Kingthings';
-    src: url('../media/fonts/Kingthings_Petrock.ttf');
+/*Fuentes*/
+@font-face{font-family: 'Kingthings'; src: url('../media/fonts/Kingthings_Petrock.ttf');}
+.fontTitle{font-family: "Metal Mania"; font-size: 45px;}
+.fontSubtitle{font-family: "New Rocker"; font-size: 30px;}
+.fontParagraph{font-family: "Kingthings"; font-size: 16px;}
+.fontAlter{font-family: "Acme"; font-size: 16px;}
+.fontCart{font-family: "Niconne"; font-size: 16px;}
+
+.contenedor{
+	width: 100%;
+	margin: auto;
 }
 
-.fontTitle{
-	font-family: "Metal Mania";
-	font-size: 45px;
+.flexRowWrapBetweenCenterCenter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
 }
 
-.fontSubtitle{
-	font-family: "New Rocker";
-	font-size: 30px;
+.flexRowWrapCenterCenterCenter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
-.fontParagraph{
-	font-family: "Kingthings";
-	font-size: 16px;
+.flexColumnNowrapBetweenCenterBetween{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
 }
 
-.fontAlter{
-	font-family: "Acme";
-	font-size: 16px;
+.flexGrowShrink{
+	flex-grow: 1;
+	flex-shrink: 1;
 }
 
-.fontCart{
-	font-family: "Niconne";
-	font-size: 16px;
+.portada{
+	width: 100%;
+	height: 320px;
+	padding: 0px 10px 10px 10px;
+	background-image: url('../media/imgs/concierto3.jpg');
+	background-size: contain;
 }
 
 /*.linkNav{
