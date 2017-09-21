@@ -37,6 +37,46 @@
 	align-content: center;
 }
 
+.flexRowWrapStartCenterCenter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.flexRowWrapCenterStretchCenter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+}
+
+.flexRowWrapEndCenterCenter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+}
+
+.flexRowWrapBetweenStretchCenter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: center;
+}
+
 .flexColumnNowrapBetweenCenterBetween{
 	display: flex;
 	flex-direction: column;
@@ -47,6 +87,26 @@
 	align-content: space-between;
 }
 
+.flexColumnNowrapCenterCenterCenter{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.flexColumnNowrapCenterStretchCenter{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+}
+
 .flexGrowShrink{
 	flex-grow: 1;
 	flex-shrink: 1;
@@ -55,12 +115,24 @@
 .portada{
 	width: 100%;
 	height: 320px;
-	padding: 0px 10px 10px 10px;
-	background-image: url('../media/imgs/concierto3.jpg');
-	background-size: contain;
+	background-image: url('../media/imgs/concierto5.jpg');
+	background-position: center;
 }
 
-/*.linkNav{
+header{
+	width: 100%;
+	background-color: rgba(200, 200, 200, 0.5);
+}
+
+.navi{
+	width: 80%;
+}
+
+.divLogin{
+	width: 20%;
+}
+
+.linkNav{
 	padding: 10px;
 	text-decoration: none;
 	color: #8D0800;
@@ -76,6 +148,54 @@
 
 .icon{
 	margin-right: 10px;
-}*/
+}
+
+.titulo h1{
+	display: block;
+	padding: 5px;
+	font-size: 70px;
+	text-align: center;
+	color: #D30C00;
+	text-shadow: 0px 0px 5px black;
+}
+
+.registrate{
+	width: 100%;
+	height: 75px;
+}
+
+.linkBtn{
+	width: 300px;
+	padding: 5px;
+	background-color: #8D0800;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 32px;
+	box-shadow: 1px 1px 2px black;
+	border-bottom: 2px solid black;
+}
+
+.linkBtn:hover{
+	border-top: 2px solid black;
+	border-bottom: none;
+	box-shadow: -1px -1px 2px black;
+}
+
+.contenedorNoticias{
+	width: 80%;
+	background-color: #282828;
+}
+
+.contenedorEventos{
+	width: 20%;	
+	background-color: #111111;
+}
+
+.itemNoticia{
+	width: 30%;
+}
+
 
 
