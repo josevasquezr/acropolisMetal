@@ -309,11 +309,11 @@ footer{
 		position: fixed;
 		background-color: rgba(0, 0, 0, 0.7);
 		width: 90%;
+		/*height: 100%;*/
 		top: 65px;
 		left: -100%;
 		
 		/*flex*/
-		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
 		
@@ -367,6 +367,25 @@ footer{
 	
 	.navi .linkNav{
 		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
+
+	.contenedorNoticias{
+		width: 100%;
+	}
+
+	.contenedorEventos{
+		width: 100%;
+
+		flex-direction: row;
+		flex-wrap: wrap;
+	
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+
+	.columnEvento{
+		flex: 1 1;
 	}
 }
 
