@@ -133,13 +133,27 @@ header{
 	background-color: rgba(200, 200, 200, 0.5);
 }
 
+.menuAdaptable{
+	display: none;
+	width: 100%;
+	cursor: pointer;
+}
+
+.hamburguesa{
+	padding: 3px;
+	color: #D30C00;
+	font-size: 32px;
+	margin-right: 20px;
+}
+
 .navi{
 	width: 80%;
 }
 
 .divLogin{
-	width: 20%;
+	width: 16%;
 }
+
 
 .linkNav{
 	padding: 10px;
@@ -276,6 +290,92 @@ footer{
 	transition: all .7s ease;
 }
 
+.abrir{
+	left: 0px;
+	transition: all 1s ease;
+}
+
+.cerrar{
+	left: -100%;
+	transition: all 1s ease;
+}
+
+@media screen and (max-width: 1020px) {
+	header{
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+
+	nav{
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.7);
+		width: 90%;
+		top: 65px;
+		left: -100%;
+		
+		/*flex*/
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		
+		justify-content: flex-start;
+		align-items: stretch;
+		align-content: center;
+	}
+
+	.menuAdaptable{
+		display: flex;
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+
+
+	.navi{
+		width: 100%;
+		/*flex*/
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		
+		justify-content: flex-start;
+		align-items: stretch;
+		align-content: center;
+	}
+
+	.divLogin{
+		width: 100%;
+
+		/*flex*/
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		
+		justify-content: flex-start;
+		align-items: stretch;
+		align-content: center;
+	}
+
+	.tituloMenu{
+		padding: 5px;
+		color: #D30C00;
+		margin-left: 20px;
+	}
+	
+	.linkNav{
+		width: 100%;
+		text-align: left;
+	}
+	
+	.navi .linkNav{
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
+@media screen and (max-width: 500px){
+	.titulo h1{
+		font-size: 55px;
+		transition: all 1s ease;
+	}
+}
 
 
 
