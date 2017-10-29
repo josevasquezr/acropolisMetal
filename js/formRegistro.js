@@ -26,15 +26,15 @@ $(function(){
 		}
 	});
 
-	// $("nav").click(function(){
-	// 	if (abierto == 0) {
-	// 		$("nav").addClass("abrir");
-	// 		$("nav").removeClass("cerrar");
-	// 		abierto = 1;
-	// 	}else{
-	// 		$("nav").removeClass("abrir");
-	// 		$("nav").addClass("cerrar");
-	// 		abierto = 0;
-	// 	}
-	// });
+	$("nav").click(function(){
+		if (abierto == 0) {
+			$("nav").addClass("abrir");
+			$("nav").removeClass("cerrar");
+			abierto = 1;
+		}else{
+			$("nav").removeClass("abrir");
+			$("nav").addClass("cerrar");
+			abierto = 0;
+		}
+	});
 });
