@@ -130,7 +130,7 @@
 
 header{
 	width: 100%;
-	background-color: rgba(200, 200, 200, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .menuAdaptable{
@@ -144,6 +144,7 @@ header{
 	color: #D30C00;
 	font-size: 32px;
 	margin-right: 20px;
+	font-size: 35px;
 }
 
 .navi{
@@ -158,7 +159,7 @@ header{
 .linkNav{
 	padding: 10px;
 	text-decoration: none;
-	color: #8D0800;
+	color: #D30C00;
 	font-weight: bolder;
 	text-align: center;
 	width: 160px;
@@ -307,25 +308,26 @@ footer{
 
 	nav{
 		position: fixed;
-		background-color: rgba(0, 0, 0, 0.7);
+		background-color: rgba(0, 0, 0, 1);
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
 		width: 90%;
-		/*height: 100%;*/
-		top: 65px;
+		height: 100%;
+		top: 53px;
 		left: -100%;
 		
 		/*flex*/
 		flex-direction: column;
 		flex-wrap: nowrap;
-		
-		justify-content: flex-start;
-		align-items: stretch;
-		align-content: center;
+	}
+
+	header nav.flexRowWrapBetweenCenterCenter{
+		align-content: flex-start;
 	}
 
 	.menuAdaptable{
 		display: flex;
 		position: fixed;
-		background-color: rgba(0, 0, 0, 0.7);
+		background-color: rgba(0, 0, 0, 1);
 	}
 
 
@@ -338,7 +340,7 @@ footer{
 		
 		justify-content: flex-start;
 		align-items: stretch;
-		align-content: center;
+		align-content: flex-start;
 	}
 
 	.divLogin{
@@ -351,18 +353,20 @@ footer{
 		
 		justify-content: flex-start;
 		align-items: stretch;
-		align-content: center;
+		align-content: flex-start;
 	}
 
 	.tituloMenu{
 		padding: 5px;
 		color: #D30C00;
 		margin-left: 20px;
+		font-size: 35px;
 	}
 	
 	.linkNav{
 		width: 100%;
 		text-align: left;
+		color: #D30C00;
 	}
 	
 	.navi .linkNav{
