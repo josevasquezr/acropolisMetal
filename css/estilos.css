@@ -156,7 +156,7 @@ header{
 }
 
 
-.linkNav{
+.linkNavi{
 	padding: 10px;
 	text-decoration: none;
 	color: #D30C00;
@@ -165,9 +165,10 @@ header{
 	width: 160px;
 }
 
-.linkNav:hover{
+.linkNavi:hover{
 	background-color: #490400;
 	color: white;
+	text-decoration: none;
 }
 
 .icon{
@@ -188,7 +189,7 @@ header{
 	height: 75px;
 }
 
-.linkBtn{
+.linkButton{
 	width: 300px;
 	padding: 5px;
 	background-color: #8D0800;
@@ -201,10 +202,12 @@ header{
 	border-bottom: 2px solid black;
 }
 
-.linkBtn:hover{
+.linkButton:hover{
 	border-top: 2px solid black;
 	border-bottom: none;
 	box-shadow: -1px -1px 2px black;
+	text-decoration: none;
+	color: white;
 }
 
 .contenedorNoticias{
@@ -363,13 +366,13 @@ footer{
 		font-size: 35px;
 	}
 	
-	.linkNav{
+	.linkNavi{
 		width: 100%;
 		text-align: left;
 		color: #D30C00;
 	}
 	
-	.navi .linkNav{
+	.navi .linkNavi{
 		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	}
 

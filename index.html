@@ -16,6 +16,9 @@
 
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -29,15 +32,36 @@
 				</div>
 				<nav class="flexRowWrapBetweenCenterCenter">
 					<div class="navi flexRowWrapStartCenterCenter">
-						<a href="#" class="linkNav fontParagraph">Inicio</a>
-						<a href="#" class="linkNav fontParagraph">Sobre Nosotros</a>
-						<a href="#" class="linkNav fontParagraph">Misión y Visión</a>
-						<a href="#" class="linkNav fontParagraph">Noticias</a>
-						<a href="#" class="linkNav fontParagraph">Galeria Multimedia</a>
+						<a href="#" class="linkNavi fontParagraph">Inicio</a>
+						<a href="#" class="linkNavi fontParagraph">Sobre Nosotros</a>
+						<a href="#" class="linkNavi fontParagraph">Misión y Visión</a>
+						<a href="#" class="linkNavi fontParagraph">Noticias</a>
+						<a href="#" class="linkNavi fontParagraph">Galeria Multimedia</a>
 					</div>
 					<div class="divLogin flexRowWrapEndCenterCenter">
-						<a href="#" class="linkNav fontParagraph">Sesión</a>
+						<a href="#sesionModal" class="linkNavi fontParagraph" data-toggle="modal">Sesión</a>
 					</div>
+					
+					<div id="sesionModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								
+								<div class="modal-header">
+									<button class="close" type="button" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Titulo pantalla Modal</h4>
+								</div>
+								
+								<div class="modal-body">
+									<p>Formulario de inicio de sesion</p>
+								</div>
+								
+								<div class="modal-footer">
+									<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</nav>
 			</header>
 
@@ -46,8 +70,29 @@
 			</div>
 			
 			<div class="registrate flexRowWrapCenterCenterCenter">
-				<a href="#" class="linkBtn fontParagraph">Regístrate</a>
+				<a href="#registroModal" class="linkButton fontParagraph" data-toggle="modal">Regístrate</a>
 			</div>
+
+			<div id="registroModal" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Titulo Modal</h4>
+						</div>
+						
+						<div class="modal-body">
+							<p>Formulario de Registro</p>
+						</div>
+
+						<div class="modal-footer">
+							<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>		
 
 		<article class="flexRowWrapCenterStretchCenter">
@@ -119,24 +164,24 @@
 		<footer class="fontParagraph flexRowWrapCenterStretchCenter">
 			<div class="navFooter flexRowWrapCenterCenterCenter">
 				<div class="flexColumnNowrapCenterStretchCenter flexGrowShrink">
-					<a href="#" class="linkNav">Inicio</a>
-					<a href="#" class="linkNav">Noticias</a>
-					<a href="#" class="linkNav">Editorial</a>
-					<a href="#" class="linkNav">Artículos</a>
+					<a href="#" class="linkNavi">Inicio</a>
+					<a href="#" class="linkNavi">Noticias</a>
+					<a href="#" class="linkNavi">Editorial</a>
+					<a href="#" class="linkNavi">Artículos</a>
 				</div>
 
 				<div class="flexColumnNowrapCenterStretchCenter flexGrowShrink">
-					<a href="#" class="linkNav">Clan Hondureño</a>
-					<a href="#" class="linkNav">Entrevistas</a>
-					<a href="#" class="linkNav">Foros</a>
-					<a href="#" class="linkNav">Galeria</a>
+					<a href="#" class="linkNavi">Clan Hondureño</a>
+					<a href="#" class="linkNavi">Entrevistas</a>
+					<a href="#" class="linkNavi">Foros</a>
+					<a href="#" class="linkNavi">Galeria</a>
 				</div>
 
 				<div class="flexColumnNowrapCenterStretchCenter flexGrowShrink">
-					<a href="#" class="linkNav">Biografías</a>
-					<a href="#" class="linkNav">Nuevos Lanzamientos</a>
-					<a href="#" class="linkNav">Letras de Canciones</a>
-					<a href="#" class="linkNav">Patrocinadores</a>
+					<a href="#" class="linkNavi">Biografías</a>
+					<a href="#" class="linkNavi">Nuevos Lanzamientos</a>
+					<a href="#" class="linkNavi">Letras de Canciones</a>
+					<a href="#" class="linkNavi">Patrocinadores</a>
 				</div>
 			</div>
 
